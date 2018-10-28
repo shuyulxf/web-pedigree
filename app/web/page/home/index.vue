@@ -28,9 +28,6 @@
               </div>
             </li>
           </ul>
-          <div id="pagerBottom" class="smart-pager" v-if="isLoading">
-            <img src="../../asset/images/loading.gif">
-          </div>
         </div>
       </div>
     </div>

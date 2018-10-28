@@ -5,6 +5,7 @@ import 'egg'; // Make sure ts to import egg declaration at first
 import AboutAbout from '../../../app/controller/about/about';
 import AppApp from '../../../app/controller/app/app';
 import HomeHome from '../../../app/controller/home/home';
+import ApiPedigreeIndex from '../../../app/controller/api/pedigree/index';
 
 declare module 'egg' {
   interface IController {
@@ -16,6 +17,11 @@ declare module 'egg' {
     };
     home: {
       home: HomeHome;
+    };
+    api: {
+      pedigree: {
+        index: ApiPedigreeIndex;
+      };
     };
   }
 }

@@ -12,4 +12,5 @@ export default (application: Application) => {
   router.get('/app/api/article/list', controller.app.app.list);
   router.get('/app/api/article/:id', controller.app.app.detail);
   router.get('/app(/.+)?', controller.app.app.index);
+  router.get('/api/pedigree/search/:id', controller.pedigree.index.search);
 };
