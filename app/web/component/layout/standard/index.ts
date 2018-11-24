@@ -15,7 +15,7 @@ const template = `<!DOCTYPE html>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <body :class="baseClass">
-  <div id="app">${content}</div>
+  <div id="app">${content}</div>sdfsdfsdf
 </body>
 </html>`;
 
@@ -24,18 +24,6 @@ export default {
     MainLayout,
   },
   computed: {
-    vTitle() {
-      return this.$root.title || this.title || 'Egg + Vue';
-    },
-    vKeywords() {
-      return this.$root.keywords || this.keywords || 'egg, vue, webpack, server side render';
-    },
-    vDescription() {
-      return this.$root.description || this.description || 'egg-vue-webpack server side render';
-    },
-    baseClass() {
-      return this.$root.baseClass;
-    },
   },
   name: 'Layout',
   props: [ 'title', 'description', 'keywords' ],
