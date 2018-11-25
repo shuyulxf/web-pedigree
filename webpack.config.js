@@ -16,8 +16,7 @@ module.exports = {
     client: 'app/web/framework/entry/client.ts',
     asset: 'app/web/asset',
     component: 'app/web/component',
-    framework: 'app/web/framework',
-    vue: 'vue/dist/vue.esm.js'
+    framework: 'app/web/framework'
   },
   dll: ['vue', 'axios', 'vue-router', 'vuex', 'vuex-router-sync'],
   loaders: {
