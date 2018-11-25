@@ -15,7 +15,7 @@ const template = `<!DOCTYPE html>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 <body :class="baseClass">
-  <div id="app">${content}</div>sdfsdfsdf
+  <div id="app">${content}</div>
 </body>
 </html>`;
 

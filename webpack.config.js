@@ -7,13 +7,13 @@ module.exports = {
     include: ['app/web/page'],
     exclude: ['app/web/page/[a-z]+/(component|store)'],
     loader: {
-      client: 'app/web/framework/vue/entry/client-loader.ts',
-      server: 'app/web/framework/vue/entry/server-loader.ts',
+      client: 'app/web/framework/entry/client-loader.ts',
+      server: 'app/web/framework/entry/server-loader.ts',
     }
   },
   alias: {
-    server: 'app/web/framework/vue/entry/server.ts',
-    client: 'app/web/framework/vue/entry/client.ts',
+    server: 'app/web/framework/entry/server.ts',
+    client: 'app/web/framework/entry/client.ts',
     asset: 'app/web/asset',
     component: 'app/web/component',
     framework: 'app/web/framework',

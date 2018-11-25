@@ -2,6 +2,8 @@ import Vue from 'vue';
 import '../component';
 import '../directive';
 import '../filter';
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
 
 export default function(options) {
   Vue.prototype.$http = require('axios');
@@ -12,4 +14,5 @@ export default function(options) {
   }
   const app = new Vue(options);
   app.$mount('#app');
+  Vue.use(iView);
 }

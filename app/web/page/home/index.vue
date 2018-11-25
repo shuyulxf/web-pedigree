@@ -3,7 +3,7 @@
     <div class="container smart-container">
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-12 col-sm-9">
-          <el-button type="primary" icon="el-icon-search">搜索</el-button>
+          
         </div>
       </div>
     </div>

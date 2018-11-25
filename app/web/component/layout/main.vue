@@ -17,7 +17,7 @@
     text-decoration: none;
   }
 
-  @import "../../../asset/css/global.css";
+  @import "../../asset/css/global.css";
 </style>
 <script type="ts">
   import LayoutHeader from './header/header';
