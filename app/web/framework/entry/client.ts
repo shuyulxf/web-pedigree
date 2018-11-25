@@ -3,7 +3,7 @@ import '../component';
 import '../directive';
 import '../filter';
 import iView from 'iview';
-import '../../asset/style/theme.less';
+import '../../asset/style/_theme.less';
 
 export default function(options) {
   Vue.prototype.$http = require('axios');
@@ -12,7 +12,7 @@ export default function(options) {
   } else if ((window as any).__INITIAL_STATE__) {
     options.data = Object.assign((window as any).__INITIAL_STATE__, options.data && options.data());
   }
+  Vue.use(iView);
   const app = new Vue(options);
   app.$mount('#app');
-  Vue.use(iView);
 }
