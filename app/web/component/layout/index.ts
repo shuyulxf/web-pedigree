@@ -26,6 +26,23 @@ export default {
   computed: {
   },
   name: 'Layout',
-  props: [ 'title', 'description', 'keywords' ],
+  props: {
+    title: {
+      type: String,
+      required: false
+    },
+    description: {
+      type: String,
+      required: false
+    },
+    keywords: {
+      type: String,
+      required: false
+    },
+    baseClass: {
+      type: String,
+      required: false
+    }
+  },
   template: EASY_ENV_IS_NODE ? template : content,
 };
