@@ -1,10 +1,9 @@
 <template>
   <header class="header">
-    <h1>header</h1>
+    
   </header>
 </template>
-<style>
-  @import "./header.css";
+<style scoped>
 </style>
 <script type="ts">
   import Vue from 'vue';

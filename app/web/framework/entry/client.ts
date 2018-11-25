@@ -3,7 +3,7 @@ import '../component';
 import '../directive';
 import '../filter';
 import iView from 'iview';
-import 'iview/dist/styles/iview.css';
+import '../../asset/style/theme.less';
 
 export default function(options) {
   Vue.prototype.$http = require('axios');

@@ -8,16 +8,8 @@
     </LayoutContent>
   </div>
 </template>
-<style lang="css">
-  body {
-    margin: 0 0px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  @import "../../asset/css/global.css";
+<style lang="scss">
+  @import "../../asset/style/global.scss";
 </style>
 <script type="ts">
   import LayoutHeader from './header/header';
