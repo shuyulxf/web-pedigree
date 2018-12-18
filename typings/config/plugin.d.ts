@@ -6,3 +6,4 @@ import 'egg-cors';
 import 'egg-webpack';
 import 'egg-webpack-vue';
 import 'egg-view-vue-ssr';
+import 'egg-mongoose';

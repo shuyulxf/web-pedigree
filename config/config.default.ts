@@ -33,5 +33,12 @@ export default (app: EggAppConfig) => {
     'access'
   ];
 
+  config.mongoose = {
+    client: {
+      url: 'mongodb://localhost/pedigree',
+      options: {},
+    },
+  };
+
   return config;
 };
