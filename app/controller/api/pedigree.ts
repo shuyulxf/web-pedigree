@@ -7,7 +7,6 @@ export default class PedigreeController extends Controller {
       url: this.ctx.url.replace(/\/app/, '')
     });
   }
-
   async search(id: Number) {
     this.ctx.body = Model.getTree({x:1});
   }
