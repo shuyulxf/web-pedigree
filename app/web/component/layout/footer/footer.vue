@@ -4,7 +4,7 @@
   </footer>
 </template>
 <style>
-  @import "./footer.css";
+  
 </style>
 <script type="ts">
   import Vue from 'vue';

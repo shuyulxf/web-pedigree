@@ -6,7 +6,7 @@
   </div>
 </template>
 <style>
-  @import "content.css";
+ 
 </style>
 <script type="ts">
   import Vue from 'vue';

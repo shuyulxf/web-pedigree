@@ -37,7 +37,7 @@ export default (app: EggAppConfig) => {
     client: {
       url: 'mongodb://localhost/pedigree',
       options: {},
-    },
+    }
   };
 
   return config;

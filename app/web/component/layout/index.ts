@@ -1,5 +1,4 @@
 
-import Vue from 'vue';
 import MainLayout from './main.vue';
 
 const content = '<div id="app"><MainLayout><div slot="main"><slot></slot></div></MainLayout></div>';
