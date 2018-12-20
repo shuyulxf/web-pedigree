@@ -1,7 +1,7 @@
 <template>
-  <header class="header">
-    Hi, 欢迎来到族谱匠 
-  </header>
+  <Header>
+    Hi, 欢迎来到族谱匠             
+  </Header>
 </template>
 <style lang="scss" scoped>
   .header {

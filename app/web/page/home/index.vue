@@ -1,8 +1,6 @@
 <template>
   <OuterLayout title="族谱匠">
-    <div class="container smart-container">
-      
-    </div>
+    
   </OuterLayout>
 </template>
 <style lang="scss">
