@@ -1,9 +1,9 @@
 import Vue from 'vue';
+import '../../asset/style/_theme.less';
 import '../component';
 import '../directive';
 import '../filter';
 import iView from 'iview';
-import '../../asset/style/_theme.less';
 
 export default function(options) {
   Vue.prototype.$http = require('axios');

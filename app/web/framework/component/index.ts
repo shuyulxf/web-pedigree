@@ -1,4 +1,4 @@
 import Vue from 'vue';
-import Layout from 'component/layout/index.ts';
+import OuterLayout from 'component/outerLayout/index.ts';
 
-Vue.component(Layout.name, Layout);
+Vue.component(OuterLayout.name, OuterLayout);

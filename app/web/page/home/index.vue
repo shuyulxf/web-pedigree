@@ -1,13 +1,9 @@
 <template>
-  <Layout>
+  <OuterLayout title="族谱匠">
     <div class="container smart-container">
-      <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-9">
-          <Button type="primary">{{data}}</Button>
-        </div>
-      </div>
+      
     </div>
-  </Layout>
+  </OuterLayout>
 </template>
 <style lang="scss">
   div{
@@ -17,7 +13,6 @@
 <script type="ts">
   export default {
     components: {
-
     },
     data(){
       return {

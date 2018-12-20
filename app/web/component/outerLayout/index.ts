@@ -24,7 +24,7 @@ export default {
   },
   computed: {
   },
-  name: 'Layout',
+  name: 'OuterLayout',
   props: {
     title: {
       type: String,
